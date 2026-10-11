@@ -7,7 +7,7 @@ The project uses a catalogue of 139,860 Steam games to explore game information 
 
 ## Application Overview
 
-SteamPulse is an interactive Streamlit Steam game analytics application.
+SteamPulse is an interactive Streamlit Steam game analytics application. The Application can be accessed through this url **[Launch SteamPulse](https://steam-pulse.streamlit.app/)**
 
 ### Overview
 
