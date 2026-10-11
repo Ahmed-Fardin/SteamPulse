@@ -1,0 +1,143 @@
+STEAMPULSE FULL PROJECT AUDIT
+========================================================================
+Project root: E:\Projects\ML\SteamPulse
+Files inventoried: 113
+Total file size: 18.34 GB
+Files skipped for hashing: 15
+Unreadable files: 0
+
+FILE COUNTS BY CATEGORY
+  cleaned_data: 4
+  data: 10
+  data_or_table: 1
+  documentation_or_notes: 3
+  model_artifact: 5
+  model_experiment_script: 5
+  other: 2
+  processed_data: 27
+  python_script: 9
+  raw_data: 8
+  report_or_audit: 39
+
+FILE COUNTS BY EXTENSION
+  .csv: 72
+  .json: 5
+  .md: 1
+  .pkl: 4
+  .py: 24
+  .txt: 4
+  .xlsx: 1
+  [no extension]: 2
+
+FILES BY FOLDER
+  .: 5
+  .vscode: 1
+  Data/Cleaned: 4
+  Data/Processed: 27
+  Data/Raw: 8
+  Models: 5
+  Reports: 35
+  SRC/Data: 10
+  SRC/Model Features: 14
+  SRC/Model Features/reports: 4
+
+EXPECTED FILE CHECKS
+  [FOUND] Data/Raw/steam_app_catalog.csv
+  [FOUND] Data/Cleaned/steam_games_clean.csv
+  [FOUND] Data/Processed/steam_modeling.csv
+  [FOUND] Data/Processed/steam_features_pricefixed.csv
+  [FOUND] Data/Processed/steam_modeling_final_prices_fixed.csv
+  [FOUND] Data/Processed/steam_ml_integrated.csv
+  [FOUND] reports/feature_quality_audit.csv
+  [FOUND] reports/feature_timing_audit.csv
+  [FOUND] reports/label_distribution_audit.csv
+  [FOUND] reports/logistic_regression_final_tuning.csv
+  [FOUND] reports/logistic_regression_final_thresholds.csv
+  [FOUND] models/steampulse_selected_model.pkl
+  [FOUND] models/steampulse_tuned_model.pkl
+
+PYTHON SCRIPTS
+  SRC/Data/collect_all_data.py
+  SRC/Data/collect_data.py
+  SRC/Data/csv_check.py
+  SRC/Data/duckdb_test.py
+  SRC/Data/inspect_data.py
+  SRC/Data/master_data.py
+  SRC/Data/problem_rows.py
+  SRC/Data/steam_28.py
+  SRC/Data/target.py
+  SRC/Data/THRESHOLD.PY
+  SRC/Model Features/analyze_model.py
+  SRC/Model Features/chck.fea.py
+  SRC/Model Features/chckml.py
+  SRC/Model Features/features.py
+  SRC/Model Features/linear_svm.py
+  SRC/Model Features/main_features_file.py
+  SRC/Model Features/model_audit.py
+  SRC/Model Features/model_integration.py
+  SRC/Model Features/prepare_features.py
+  SRC/Model Features/svm_validate.py
+  SRC/Model Features/svm_validate2.py
+  SRC/Model Features/train_models.py
+  SRC/Model Features/tune_models.py
+  SRC/Model Features/USD_CONVERSION.PY
+
+MODEL ARTIFACTS
+  Models/model_results.csv
+  Models/steampulse_final_model.pkl
+  Models/steampulse_model.pkl
+  Models/steampulse_selected_model.pkl
+  Models/steampulse_tuned_model.pkl
+
+DATA FILES
+  Data/Cleaned/repair_failures.csv
+  Data/Cleaned/steam_games_clean.csv
+  Data/Cleaned/steam_games_repair_report.txt
+  Data/Cleaned/steam_games_repaired.csv
+  Data/Processed/Book1.csv
+  Data/Processed/Book1.xlsx
+  Data/Processed/feature_engineering_audit.csv
+  Data/Processed/final_price_audit.csv
+  Data/Processed/integration_audit.csv
+  Data/Processed/price_conversion_audit.csv
+  Data/Processed/price_correction_audit.csv
+  Data/Processed/price_feature_audit.csv
+  Data/Processed/release_date_recovery.csv
+  Data/Processed/steam_features.csv
+  Data/Processed/steam_features_final.csv
+  Data/Processed/steam_features_pricefixed.csv
+  Data/Processed/steam_games_28.csv
+  Data/Processed/steam_ml.csv
+  Data/Processed/steam_ml_integrated.csv
+  Data/Processed/steam_modeling.csv
+  Data/Processed/steam_modeling_final_prices.csv
+  Data/Processed/steam_modeling_final_prices_fixed.csv
+  Data/Processed/steam_modeling_price_features.csv
+  Data/Processed/steam_modeling_prices_corrected.csv
+  Data/Processed/steam_modeling_prices_usd.csv
+  Data/Processed/steampulse_modeling_predictions.csv
+  Data/Processed/steampulse_selected_predictions.csv
+  Data/Processed/steampulse_selected_test_predictions.csv
+  Data/Processed/steampulse_test_predictions.csv
+  Data/Processed/steampulse_tuned_test_predictions.csv
+  Data/Processed/test_predictions.csv
+  Data/Raw/csv_rows_over_43_columns.csv
+  Data/Raw/missing_appids.csv
+  Data/Raw/missing_known_failures.csv
+  Data/Raw/missing_unexplained.csv
+  Data/Raw/steam_app_catalog.csv
+  Data/Raw/steam_app_catalog_all.csv
+  Data/Raw/steam_failed_appids.csv
+  Data/Raw/steam_games.csv
+
+DUPLICATE CHECKS
+  Duplicate filenames: 0 file entries
+  Duplicate contents: 4 file entries
+
+AUDIT OUTPUTS
+  reports/project_inventory.csv
+  reports/project_duplicate_filenames.csv
+  reports/project_duplicate_contents.csv
+  reports/project_audit_summary.txt
+
+This report does not authorize deletion of files.

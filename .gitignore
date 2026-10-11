@@ -1,0 +1,35 @@
+﻿# Keep datasets off GitHub
+Data/
+**/*.csv
+**/*.parquet
+**/*.xlsx
+**/*.xls
+**/*.feather
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private API credentials
+steam_api.txt
+
+# Local editor settings
+.vscode/
+
+# Backup files
+*.bak

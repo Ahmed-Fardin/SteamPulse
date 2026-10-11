@@ -1,0 +1,53 @@
+{
+    "model_name": "RandomForest_3",
+    "threshold": 0.35183673015016814,
+    "test_games": 4884,
+    "actual_hit_games": 272,
+    "actual_not_hit_games": 4612,
+    "actual_hit_prevalence": 0.055692055692055695,
+    "roc_auc": 0.8279982526401715,
+    "pr_auc_average_precision": 0.3650181034736622,
+    "accuracy": 0.9056101556101556,
+    "balanced_accuracy": 0.7164956507321054,
+    "hit_precision": 0.2958963282937365,
+    "hit_recall": 0.5036764705882353,
+    "hit_f1": 0.3727891156462585,
+    "true_negative": 4286,
+    "false_positive": 326,
+    "false_negative": 135,
+    "true_positive": 137,
+    "predicted_hit_games": 463,
+    "predicted_hit_prevalence": 0.09479934479934479,
+    "classification_report": {
+        "NOT HIT": {
+            "precision": 0.9694639221895499,
+            "recall": 0.9293148308759757,
+            "f1-score": 0.9489649064541127,
+            "support": 4612.0
+        },
+        "HIT": {
+            "precision": 0.2958963282937365,
+            "recall": 0.5036764705882353,
+            "f1-score": 0.3727891156462585,
+            "support": 272.0
+        },
+        "accuracy": 0.9056101556101556,
+        "macro avg": {
+            "precision": 0.6326801252416432,
+            "recall": 0.7164956507321054,
+            "f1-score": 0.6608770110501856,
+            "support": 4884.0
+        },
+        "weighted avg": {
+            "precision": 0.9319515582379403,
+            "recall": 0.9056101556101556,
+            "f1-score": 0.9168764922240276,
+            "support": 4884.0
+        }
+    },
+    "evaluation_notes": [
+        "The model and threshold were selected without using these test labels.",
+        "An earlier model was evaluated on this test set; this evaluation should be treated as a final check, not a tuning signal.",
+        "HIT represents the observed recommendation threshold, not verified commercial success."
+    ]
+}

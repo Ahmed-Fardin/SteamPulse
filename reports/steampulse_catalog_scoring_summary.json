@@ -1,0 +1,18 @@
+{
+  "project": "SteamPulse",
+  "model_artifact": "E:\\Projects\\ML\\SteamPulse\\Models\\steampulse_release_candidate.joblib",
+  "scored_dataset": "E:\\Projects\\ML\\SteamPulse\\Data\\Processed\\steampulse_catalog_predictions.csv",
+  "rows_scored": 139860,
+  "unique_games": 139860,
+  "batch_size": 2000,
+  "decision_threshold": 0.019106615418433615,
+  "decision_score_min": -13.844200887744176,
+  "decision_score_max": 10.590846324500927,
+  "predicted_hit_count": 5127,
+  "predicted_hit_fraction": 0.03665808665808666,
+  "observed_outcome_count": 22625,
+  "unobserved_outcome_count": 117235,
+  "test_set_used_for_evaluation": false,
+  "score_interpretation": "decision_function score; not a calibrated probability",
+  "label_interpretation": "HIT denotes the model's classification under the saved threshold. It is not a statement of commercial success."
+}

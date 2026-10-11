@@ -1,0 +1,99 @@
+{
+    "selected_model": "Random Forest",
+    "threshold_selected_on_validation": 0.6083011800796295,
+    "train_games": 13369,
+    "validation_games": 4372,
+    "test_games": 4884,
+    "modeling_population_games": 139860,
+    "unlabeled_games": 117235,
+    "validation_metrics_at_selected_threshold": {
+        "roc_auc": 0.8318993796970059,
+        "pr_auc_average_precision": 0.42667857415989274,
+        "accuracy": 0.9160567246111619,
+        "balanced_accuracy": 0.7002430514135751,
+        "precision_hit": 0.4471299093655589,
+        "recall_hit": 0.4457831325301205,
+        "f1_hit": 0.4464555052790347,
+        "true_negative": 3857,
+        "false_positive": 183,
+        "false_negative": 184,
+        "true_positive": 148,
+        "actual_hit_rate": 0.07593778591033852,
+        "predicted_hit_rate": 0.07570905763952425,
+        "classification_report": {
+            "NOT HIT": {
+                "precision": 0.9544667161593665,
+                "recall": 0.9547029702970297,
+                "f1-score": 0.9545848286103205,
+                "support": 4040.0
+            },
+            "HIT": {
+                "precision": 0.4471299093655589,
+                "recall": 0.4457831325301205,
+                "f1-score": 0.4464555052790347,
+                "support": 332.0
+            },
+            "accuracy": 0.9160567246111619,
+            "macro avg": {
+                "precision": 0.7007983127624627,
+                "recall": 0.7002430514135751,
+                "f1-score": 0.7005201669446776,
+                "support": 4372.0
+            },
+            "weighted avg": {
+                "precision": 0.9159406823406235,
+                "recall": 0.9160567246111619,
+                "f1-score": 0.9159986128404242,
+                "support": 4372.0
+            }
+        }
+    },
+    "final_test_metrics": {
+        "roc_auc": 0.8288201175960411,
+        "pr_auc_average_precision": 0.3311661774295736,
+        "accuracy": 0.9154381654381655,
+        "balanced_accuracy": 0.7061310647415948,
+        "precision_hit": 0.3224181360201511,
+        "recall_hit": 0.47058823529411764,
+        "f1_hit": 0.38266068759342303,
+        "true_negative": 4343,
+        "false_positive": 269,
+        "false_negative": 144,
+        "true_positive": 128,
+        "actual_hit_rate": 0.055692055692055695,
+        "predicted_hit_rate": 0.08128583128583129,
+        "classification_report": {
+            "NOT HIT": {
+                "precision": 0.9679072877200803,
+                "recall": 0.941673894189072,
+                "f1-score": 0.9546103967468953,
+                "support": 4612.0
+            },
+            "HIT": {
+                "precision": 0.3224181360201511,
+                "recall": 0.47058823529411764,
+                "f1-score": 0.38266068759342303,
+                "support": 272.0
+            },
+            "accuracy": 0.9154381654381655,
+            "macro avg": {
+                "precision": 0.6451627118701158,
+                "recall": 0.7061310647415948,
+                "f1-score": 0.6686355421701592,
+                "support": 4884.0
+            },
+            "weighted avg": {
+                "precision": 0.93195866993499,
+                "recall": 0.9154381654381655,
+                "f1-score": 0.922757341691665,
+                "support": 4884.0
+            }
+        }
+    },
+    "caveats": [
+        "HIT is a proxy for observed cumulative Steam recommendations, not commercial success.",
+        "Games without recommendation outcomes remain unlabeled; predictions are estimates.",
+        "Current metadata and prices are not a verified historical snapshot from each game's release date.",
+        "Predictions for labeled training/validation games are not out-of-sample estimates."
+    ]
+}

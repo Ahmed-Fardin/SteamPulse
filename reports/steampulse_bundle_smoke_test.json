@@ -1,0 +1,94 @@
+{
+  "project": "SteamPulse",
+  "verification": "saved_model_bundle_reproduction",
+  "passed": true,
+  "model_path": "E:\\Projects\\ML\\SteamPulse\\Models\\steampulse_release_candidate.joblib",
+  "validation_rows": 4372,
+  "test_partition_used": false,
+  "expected_feature_count": 45518,
+  "reconstructed_feature_count": 45518,
+  "actual_metrics": {
+    "pr_auc": 0.446680003383976,
+    "roc_auc": 0.8451031850172969,
+    "threshold": 0.019106615418433615,
+    "precision": 0.3502626970227671,
+    "recall": 0.6024096385542169,
+    "f1": 0.4429678848283499,
+    "true_positives": 200,
+    "false_positives": 371,
+    "true_negatives": 3669,
+    "false_negatives": 132
+  },
+  "recorded_metrics": {
+    "pr_auc": 0.446680003383976,
+    "roc_auc": 0.8451031850172969,
+    "threshold": 0.019106615418433615,
+    "precision": 0.3502626970227671,
+    "recall": 0.6024096385542169,
+    "f1": 0.4429678848283499,
+    "true_positives": 200,
+    "false_positives": 371,
+    "true_negatives": 3669,
+    "false_negatives": 132
+  },
+  "numeric_comparisons": {
+    "pr_auc": {
+      "actual": 0.446680003383976,
+      "recorded": 0.446680003383976,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "roc_auc": {
+      "actual": 0.8451031850172969,
+      "recorded": 0.8451031850172969,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "threshold": {
+      "actual": 0.019106615418433615,
+      "recorded": 0.019106615418433615,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "precision": {
+      "actual": 0.3502626970227671,
+      "recorded": 0.3502626970227671,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "recall": {
+      "actual": 0.6024096385542169,
+      "recorded": 0.6024096385542169,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "f1": {
+      "actual": 0.4429678848283499,
+      "recorded": 0.4429678848283499,
+      "absolute_difference": 0.0,
+      "passed": true
+    }
+  },
+  "count_comparisons": {
+    "true_positives": {
+      "actual": 200,
+      "recorded": 200,
+      "passed": true
+    },
+    "false_positives": {
+      "actual": 371,
+      "recorded": 371,
+      "passed": true
+    },
+    "true_negatives": {
+      "actual": 3669,
+      "recorded": 3669,
+      "passed": true
+    },
+    "false_negatives": {
+      "actual": 132,
+      "recorded": 132,
+      "passed": true
+    }
+  }
+}

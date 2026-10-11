@@ -1,0 +1,60 @@
+{
+    "selected_model": "Logistic Regression",
+    "validation_pr_auc": 0.4246953167840323,
+    "validation_roc_auc": 0.8446424311105809,
+    "threshold_selected_on_validation": 0.692515259843401,
+    "training_games": 13369,
+    "validation_games": 4372,
+    "test_games": 4884,
+    "population_games": 139860,
+    "test_metrics": {
+        "roc_auc": 0.8459365912453446,
+        "pr_auc_average_precision": 0.3668051575730512,
+        "accuracy": 0.898034398034398,
+        "balanced_accuracy": 0.7315124228355696,
+        "hit_precision": 0.2835249042145594,
+        "hit_recall": 0.5441176470588235,
+        "hit_f1": 0.37279596977329976,
+        "true_negative": 4238,
+        "false_positive": 374,
+        "false_negative": 124,
+        "true_positive": 148,
+        "predicted_hit_count": 522,
+        "actual_hit_count": 272,
+        "actual_hit_prevalence": 0.055692055692055695,
+        "classification_report": {
+            "NOT HIT": {
+                "precision": 0.9715726730857405,
+                "recall": 0.9189071986123157,
+                "f1-score": 0.9445063516826387,
+                "support": 4612.0
+            },
+            "HIT": {
+                "precision": 0.2835249042145594,
+                "recall": 0.5441176470588235,
+                "f1-score": 0.37279596977329976,
+                "support": 272.0
+            },
+            "accuracy": 0.898034398034398,
+            "macro avg": {
+                "precision": 0.62754878865015,
+                "recall": 0.7315124228355696,
+                "f1-score": 0.6586511607279693,
+                "support": 4884.0
+            },
+            "weighted avg": {
+                "precision": 0.9332538784229719,
+                "recall": 0.898034398034398,
+                "f1-score": 0.9126666252536174,
+                "support": 4884.0
+            }
+        }
+    },
+    "caveats": [
+        "Model was refitted on training plus validation.",
+        "Decision threshold was selected on validation predictions before this refit.",
+        "Current prices and metadata are not verified historical snapshots from each game's release.",
+        "HIT represents cumulative recommendation threshold attainment, not commercial success.",
+        "The existing test set has been evaluated by earlier models during development."
+    ]
+}

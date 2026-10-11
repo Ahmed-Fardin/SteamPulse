@@ -1,0 +1,24 @@
+{
+    "selected_model": "RandomForest_3",
+    "feature_mode": "all",
+    "validation_pr_auc": 0.4258078570695277,
+    "validation_roc_auc": 0.837146233448646,
+    "selected_threshold": 0.35183673015016814,
+    "minimum_validation_precision_target": 0.35,
+    "validation_precision_at_threshold": 0.35450819672131145,
+    "validation_recall_at_threshold": 0.5210843373493976,
+    "validation_true_positives": 173,
+    "validation_false_positives": 315,
+    "validation_false_negatives": 159,
+    "threshold_selection_reason": "Highest validation recall with precision >= 0.35",
+    "training_games": 13369,
+    "validation_games": 4372,
+    "test_games": 4884,
+    "test_evaluated_during_tuning": false,
+    "caveats": [
+        "No test metrics are used for candidate or threshold selection.",
+        "A predicted HIT is an estimate of the recommendation-based target, not commercial success.",
+        "The chosen threshold maximizes validation recall subject to the configured precision floor.",
+        "The threshold was chosen using a model fitted on training data, then the selected model was refitted using training plus validation data."
+    ]
+}

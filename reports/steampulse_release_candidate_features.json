@@ -1,0 +1,43 @@
+{
+  "numeric_features": [
+    "release_year",
+    "release_month",
+    "price_log1p_final",
+    "price_missing_final",
+    "is_free",
+    "required_age",
+    "windows",
+    "mac",
+    "linux",
+    "platform_count",
+    "genre_count",
+    "category_count",
+    "developer_count",
+    "publisher_count",
+    "language_count",
+    "has_controller_support",
+    "has_pc_requirements",
+    "has_mac_requirements",
+    "has_linux_requirements",
+    "name_length",
+    "short_description_length",
+    "about_length"
+  ],
+  "categorical_features": [
+    "main_genre",
+    "main_category",
+    "main_developer",
+    "main_publisher"
+  ],
+  "multilabel_features": [
+    "genres_multilabel",
+    "categories_multilabel"
+  ],
+  "text_columns": [
+    "steam_appid",
+    "name",
+    "short_description",
+    "about_the_game"
+  ],
+  "combined_feature_count": 45518
+}

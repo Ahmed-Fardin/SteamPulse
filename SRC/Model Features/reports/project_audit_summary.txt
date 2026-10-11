@@ -1,0 +1,52 @@
+STEAMPULSE PROJECT AUDIT SUMMARY
+========================================================================
+Project root: E:\Projects\ML\SteamPulse\SRC\Model Features
+Files inventoried: 14
+Total inventoried size: 0.17 MB
+Files not content-hashed because of size: 0
+
+FILE COUNTS BY CATEGORY
+  model_experiment_script: 5
+  python_script: 9
+
+FILE COUNTS BY EXTENSION
+  .py: 14
+
+EXPECTED FILE CHECKS
+  [NOT FOUND] Data/Raw/steam_app_catalog.csv
+  [NOT FOUND] Data/Cleaned/steam_games_clean.csv
+  [NOT FOUND] Data/Processed/steam_modeling.csv
+  [NOT FOUND] Data/Processed/steam_features_pricefixed.csv
+  [NOT FOUND] Data/Processed/steam_modeling_final_prices_fixed.csv
+  [NOT FOUND] Data/Processed/steam_ml_integrated.csv
+  [NOT FOUND] models/steampulse_selected_model.pkl
+  [NOT FOUND] models/steampulse_tuned_model.pkl
+
+Potential duplicate-content groups: 0
+Duplicate-content file entries: 0
+Duplicate filename entries: 0
+
+PYTHON SCRIPTS
+  analyze_model.py
+  chck.fea.py
+  chckml.py
+  features.py
+  linear_svm.py
+  main_features_file.py
+  model_audit.py
+  model_integration.py
+  prepare_features.py
+  svm_validate.py
+  svm_validate2.py
+  train_models.py
+  tune_models.py
+  USD_CONVERSION.PY
+
+MODEL ARTIFACTS
+
+AUDIT OUTPUTS
+  reports\project_inventory.csv
+  reports\project_duplicate_contents.csv
+  reports\project_duplicate_filenames.csv
+
+IMPORTANT: This audit does not authorize file deletion.
