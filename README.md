@@ -13,15 +13,15 @@ SteamPulse is an interactive Streamlit Steam game analytics application.
 
 Explore catalogue statistics, the distribution of model classifications, release year patterns, and the highest ranked games.
 
-[SteamPulse Overview](Images/Overview.png)
-
+![SteamPulse Overview](Images/Overview.png)
 
 ### Explore Catalogue
 
 Search games by title or Steam App ID. Filter by genre, category, price model, release year, and model classification. Sort the results and download filtered records as a CSV file.
 
 
-[SteamPulse Catalogue](Images/Catalogue.png)
+![SteamPulse Catalogue](Images/Catalogue.png)
+
 
 
 ###  Game Spotlight
